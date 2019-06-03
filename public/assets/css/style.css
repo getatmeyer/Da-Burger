@@ -33,22 +33,20 @@ li {
   ul {
     padding: 5px;
   }
-  .change-sleep {
+  .change-devour{
     background-color: green;
     color: white;
     font-size:12px;
   }
-  .change-sleep::after {
+  .change-devour::after {
     background-color: red;
   }
-  .delete-cat {
+  .delete-devour {
     background-color: red;
     color: white;
     font-size:12px;
   }
-  #righthead {
-    padding: 5px;
-  }
+  
   button {
     background-color: blue;
     color: white;
@@ -57,4 +55,6 @@ li {
    
     display: none;
   }
-  
+  h1 {
+    color: red
+  }
