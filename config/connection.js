@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000;
           
 if (process.env.JAWSDB_URL) {
 connection = 
-  mysql.createConnection(process.env.JAWDB_URL);
+  mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
   host: "localhost",
