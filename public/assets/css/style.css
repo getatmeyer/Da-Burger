@@ -1,3 +1,8 @@
+body {
+  background-color: #8fbbbc;
+
+}
+
 li {
     list-style: none;  
     background: #F0F0F0;
@@ -7,27 +12,26 @@ li {
     padding:15px;
     margin-top:20px;
   }
-  #text {
+  /* #text {
     margin-left: 55px;
-    color: red;
-  }
+  } */
   .label {
     font-weight: bold;
   }
   
-  .create-update-form {
+  /* .create-update-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
   }
+   */
   
-  .form-group {
-    margin-bottom: 5px;
-  }
   /* ///INPUT FORM */
   #ca {
-    width:500px;
-    margin-left: 30px;
+    width:400px;
+    margin-left: 500px;
+    margin-top: 50px;
+    
     
   }
   ul {
@@ -38,9 +42,7 @@ li {
     color: white;
     font-size:12px;
   }
-  .change-devour::after {
-    background-color: red;
-  }
+  
   .delete-devour {
     background-color: red;
     color: white;
@@ -52,9 +54,19 @@ li {
     color: white;
   }
   input[type="radio"]  {
-   
+
     display: none;
   }
+
   h1 {
-    color: red
+    font-size: 50px;
+    /* font-size: 76px; */
+    /* color:  */
+    font-size: 4.5rem;
+    margin-top: 50px;
   }
+ h6 {
+   text-align: center;
+   margin-right:50px;
+   margin-bottom: 50px;
+ }

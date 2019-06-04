@@ -1,9 +1,12 @@
-<h1>Eat Da Burger</h1>
+<div class="body">
+<h1>devour-it.com</h1>
+{{!-- <img src="public/assets/img/hamburger_53876-25481.jpg"; --}}
+
 
 {{!-- <h2>Cats that are not sleepy!</h2> --}}
 <div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-">
+{{!-- <div class="col-md-1"></div> --}}
+<div class="col-md-6">
 
 <ul>
   {{#each burgers}}
@@ -11,14 +14,15 @@
       {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
+  </div>
 </ul>
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-1"></div>
+{{!-- <div class="col-md-1"></div> --}}
 
 {{!-- <h2>Cats that are sleepy!</h2> --}}
-<div class="col-md-1"></div>
-<div class="col-md-3">
+{{!-- <div class="col-md-1"></div> --}}
+{{!-- <div class="col-md-3"> --}}
+  <div class="col-md-6">
+
 <ul>
   {{#each burgers}}
     {{#if devoured}}
@@ -27,11 +31,9 @@
   {{/each}}
 </ul>
 </div>
-<div class="col-md-1"></div>
-<div class="col-md-1"></div>
-
 
 </div>
+
 {{!-- <h2>Add a Cat</h2> --}}
 <form class="create-form">
 
@@ -45,5 +47,5 @@
     <input type="radio" name="devoured" value="0" checked><br>
     <input type="radio" name="devoured" value="1">
   </div>
-
+  <H6>Enter the name of burger you'd like to eat.</H6>
 </form>
