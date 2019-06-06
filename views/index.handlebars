@@ -1,11 +1,13 @@
 <div class="body">
-<h1>devour-it.com</h1>
-{{!-- <img src="public/assets/img/hamburger_53876-25481.jpg"; --}}
+
+<h1 id="head">Da-Burger</h1>
+<p id="tag">Devour all you want.</p>
+{{!-- <img src="/assets/img/hamburger_53876-25481.jpg"; --}}
 
 
-{{!-- <h2>Cats that are not sleepy!</h2> --}}
+<div class="container">
 <div class="row">
-{{!-- <div class="col-md-1"></div> --}}
+
 <div class="col-md-6">
 
 <ul>
@@ -16,12 +18,8 @@
   {{/each}}
   </div>
 </ul>
-{{!-- <div class="col-md-1"></div> --}}
 
-{{!-- <h2>Cats that are sleepy!</h2> --}}
-{{!-- <div class="col-md-1"></div> --}}
-{{!-- <div class="col-md-3"> --}}
-  <div class="col-md-6">
+<div class="col-md-6">
 
 <ul>
   {{#each burgers}}
@@ -30,17 +28,18 @@
     {{/if}}
   {{/each}}
 </ul>
-</div>
 
 </div>
+</div>
+</div>
+
 
 {{!-- <h2>Add a Cat</h2> --}}
 <form class="create-form">
 
   <div class="form-group">
     <input type="text" id="ca" name="name">
-      <button type="submit">SUBMIT</button>
-
+      <button id="submit" type="submit">SUBMIT</button>
   </div>
 
   <div class="form-group">

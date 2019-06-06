@@ -1,6 +1,7 @@
-body {
+.body {
   background-color: #8fbbbc;
-
+  height: 600px;
+  position: relative;
 }
 
 li {
@@ -10,37 +11,28 @@ li {
     height: 80px;
     margin-left: 40px;
     padding:15px;
-    margin-top:20px;
+    margin-top: 40px;
   }
-  /* #text {
-    margin-left: 55px;
-  } */
+  
   .label {
     font-weight: bold;
   }
-  
-  /* .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-   */
   
   /* ///INPUT FORM */
   #ca {
     width:400px;
     margin-left: 500px;
-    margin-top: 50px;
-    
-    
   }
+
   ul {
     padding: 5px;
   }
+
   .change-devour{
-    background-color: green;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     font-size:12px;
+    text-shadow: 1px 1px #BEBEBE;
   }
   
   .delete-devour {
@@ -49,24 +41,39 @@ li {
     font-size:12px;
   }
   
-  button {
-    background-color: blue;
+  #submit {
+    background-color: #ff0080;
     color: white;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+
   }
   input[type="radio"]  {
-
     display: none;
   }
 
-  h1 {
-    font-size: 50px;
-    /* font-size: 76px; */
-    /* color:  */
-    font-size: 4.5rem;
-    margin-top: 50px;
+  #head {
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.5px;
+    font-size: 64px;
+    padding-top: 120px;
   }
- /* h6 {
+  #tag {
+    top: 195px;
+    left: 690px;
+    color: white;
+    /* font-family: 'Raleway: 200i', sans-serif; */
+    font-family: 'Raleway' 'italic', sans-serif;
+    position: absolute;
+    font-size: 17px;
+
+  }
+ h6 {
    text-align: center;
    margin-right:50px;
    margin-bottom: 50px;
- } */
+   font-family: 'Raleway', sans-serif;
+   color: white;
+ }

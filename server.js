@@ -3,9 +3,9 @@ var express = require("express");
 var PORT = process.env.PORT || 8080;
 
 var app = express();
-
+var path = require("path")
 // Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 // app.use(express.static("public/assets/css"))
 
 // Parse application body as JSON
