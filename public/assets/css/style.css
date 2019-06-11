@@ -21,7 +21,7 @@ li {
   /* ///INPUT FORM */
   #ca {
     width:400px;
-    margin-left: 499px;
+    margin-left: 420px;
     margin-top:50px;
   
   }
@@ -65,15 +65,15 @@ li {
 
   }
   #tag {
-    text-align: center; 
-    margin-right: 39px;
-    margin-top:20px;
-    /* top: 195px; */
-    /* left: 616px; */
+    /* text-align: center;  */
+    /* margin-right: 39px; */
+    /* margin-top:20px; */
+    top: 208px;
+    left: 570px;
     color: wheat;
     /* font-family: 'Raleway: 200i', sans-serif; */
     font-family: 'Raleway', sans-serif;
-    /* position: absolute; */
+    position: absolute;
     font-size: 16px;
     font-style: italic;
 
@@ -90,9 +90,7 @@ li {
  .col-md-6 {
    padding-top: 90px;
  }
- .form-group {
-   /* padding: 5px; */
- }
+ 
  #softdrink {
    position: absolute;
    top: 740px;
@@ -129,3 +127,32 @@ li {
    margin-right: 450px;
    margin-bottom: 30px;
  }
+ .wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8fbbbc;
+  height: 140px;
+  margin-top: 170px;
+ }
+ .page-footer {
+   text-align: center;
+   font-family: 'Pacifico', cursive;
+   color: white;
+   font-size: 41px;
+   padding-top: 32px;
+
+}
+#secondTag {
+  
+/* text-align: center;  */
+/* font-size: 16px; */
+/* font-style: italic; */
+/* font-family: 'Raleway', sans-serif; */
+/* color: wheat; */
+
+}
+#thirdTag {
+  color: wheat;
+  text-align: center;
+}
