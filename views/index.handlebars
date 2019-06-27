@@ -1,83 +1,86 @@
 <div class="body">
-<div class="head-content">
-<h1 id="head">Da-Burger</h1>
-<p id="tag">Devour all you want .</p>
-{{!-- <img src="/assets/img/hamburger_53876-25481.jpg"; --}}
+  <div class="head-content">
+    <h1 id="head">Da-Burger</h1>
+    <p id="tag">Devour all you want.</p>
+    {{!-- <img src="/assets/img/hamburger_53876-25481.jpg"; --}}
 
 
-<div class="container">
-<div class="row">
+    <div class="container">
+      <div class="row">
 
-<div class="col-md-6">
+        <div class="col-md-6">
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devour=true}}
-    {{/unless}}
-  {{/each}}
-  </div>
-</ul>
+          <ul>
+            {{#each burgers}}
+            {{#unless devoured}}
+            {{> burgers/burger-block devour=true}}
+            {{/unless}}
+            {{/each}}
+        </div>
+        </ul>
 
-<div class="col-md-6">
+        <div class="col-md-6">
 
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+          <ul>
+            {{#each burgers}}
+            {{#if devoured}}
+            {{> burgers/burger-block devour=false}}
+            {{/if}}
+            {{/each}}
+          </ul>
 
-</div>
-</div>
-</div>
-
-
-<form class="create-form">
-
-  <div class="form-group">
-    <input type="text" id="ca" name="name">
-      <button id="submit" type="submit">SUBMIT</button>
-  </div>
-  <h6 id="statement">Enter the name of burger you'd like to eat.</h6>
-
-  <div class="form-group">
-    <input type="radio" name="devoured" value="0" checked><br>
-    <input type="radio" name="devoured" value="1">
-  </div>
-  </form>
-
-  <div class="images">
-  <img id="softdrink" src="/assets/img/devourdrink.png" width="230">
-    <a href="https://www.freepik.com/free-vector/fast-food-designs-collection_1076585.htm"><img id="burgerIcon" src="/assets/img/burger.png" width="230"></a>
-      <a href="https://www.freepik.com/free-vector/set-funny-monsters-flat-style_1958109.htm"><img id="monster" src="/assets/img/monster.png" width="195"></a>
+        </div>
       </div>
-  <div class="empty"></div>
-<div class="headline">
+    </div>
 
-        <div class="application">
-          <div class="col-md-12">
+
+    <form class="create-form">
+
+      <div class="form-group">
+        <input type="text" id="ca" name="name">
+        <button id="submit" type="submit">SUBMIT</button>
+      </div>
+      <h6 id="statement">Enter the name of burger you'd like to eat.</h6>
+
+      <div class="form-group">
+        <input type="radio" name="devoured" value="0" checked><br>
+        <input type="radio" name="devoured" value="1">
+      </div>
+    </form>
+
+    <div class="images">
+      <img id="softdrink" src="/assets/img/devourdrink.png" width="230">
+      <a href="https://www.freepik.com/free-vector/fast-food-designs-collection_1076585.htm"><img id="burgerIcon"
+          src="/assets/img/burger.png" width="270"></a>
+      <a href="https://www.freepik.com/free-vector/set-funny-monsters-flat-style_1958109.htm"><img id="monster"
+          src="/assets/img/monster.png" width="165"></a>
+    </div>
+    <div class="empty"></div>
+    <div class="headline">
+
+      <div class="application">
+        <div class="col-md-12">
           <h2>Da-Burger Application</h2>
           <hr>
           <p id="paragraph">This project demonstrates a basic full stack application with a front-end implemented
-            with HTML/CSS from<br>the framework and the back-end implemented with Node.js and Express. HTML templating is rendered
-            with the help of Handlebars.<br> When you place an order, the burger you enter in the form field is added to the new burger entry into
-            the MYSQL database.<br> The burger entry is added to the burgers to Devour section on the left side of the screen. The user may<br>
-            then eat any burger by clicking on it, which moves it into the column and updates its status accordingly in the database.
+            with HTML/CSS from<br>the framework and the back-end implemented with Node.js and Express. HTML templating
+            is rendered with the help of Handlebars.<br> When you place an order, the burger you enter in the form field is added to
+            the new burger entry into the MYSQL database.<br> The burger entry is added to the burgers to Devour section on the left side of the
+            screen. The user may<br> then eat any burger by clicking on it, which moves it into the column and updates its status accordingly in
+            the database.
             <br>
             <br>
             <p id="thirdTag">Enjoy and have a burger on us!</p>
           </p>
-          </div>
+        </div>
 
-          <div class="wrapper">
-    <footer class="page-footer">Da-Burger</footer>
-      {{!-- <p id="secondTag">Eat all you want</p> --}}
+        <div class="wrapper">
+          <footer class="page-footer">Da-Burger</footer>
+              <p id="footerTag">Devour all you want.</p>
 
-    </footer>
+          
+          </footer>
+        </div>
+
+      </div>
     </div>
-
-          </div>
-          </div>
-

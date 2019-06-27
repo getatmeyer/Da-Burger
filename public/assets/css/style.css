@@ -21,7 +21,7 @@ li {
   /* ///INPUT FORM */
   #ca {
     width:400px;
-    margin-left: 420px;
+    margin-left: 490px;
     margin-top:50px;
   
   }
@@ -68,8 +68,10 @@ li {
     /* text-align: center;  */
     /* margin-right: 39px; */
     /* margin-top:20px; */
-    top: 208px;
-    left: 570px;
+    /* top: 208px; */
+    /* left: 570px; */
+    left: 44vw;
+    top: 27.5vh;
     color: wheat;
     /* font-family: 'Raleway: 200i', sans-serif; */
     font-family: 'Raleway', sans-serif;
@@ -80,7 +82,7 @@ li {
   }
  #statement {
    text-align: center;
-   margin-right:50px;
+   margin-right: 36px;
    margin-bottom: 55px;
    font-size: 15px;
    font-family: 'Raleway', sans-serif;
@@ -92,23 +94,27 @@ li {
  }
  
  #softdrink {
-   position: absolute;
-   top: 740px;
-   right: 340px;
+   position: relative;
+   /* top: 740px; */
+   /* right: -60vw; */
+   left: 53vw;
+   top: -15vh;
  }
  #burgerIcon{
-   position: absolute;
-   top: 990px;
-   right:420px;
+   position: relative;
+   left: 29vw;
+   top: 5vh;
 
  }
  #monster {
-   position: absolute;
-   top: 950px;
-   right: 600px;
+   position: relative;
+   /* top: 950px;
+   right: 600px; */
+   left: 2vw;
+    top: -1vh;
  }
  .empty {
-   height: 450px;
+   height: 150px;
    
  }
  h2 {
@@ -155,4 +161,14 @@ li {
 #thirdTag {
   color: wheat;
   text-align: center;
+}
+#footerTag {
+  color: wheat;
+    /* font-family: 'Raleway: 200i', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    font-size: 11px;
+    font-style: italic;
+    left: 45.5vw;
+    top: -1vh;
 }
